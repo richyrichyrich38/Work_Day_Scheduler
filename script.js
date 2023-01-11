@@ -14,3 +14,13 @@
             // check if hour is past, current or future and apply corresponding css class to time-block
             
 
+            var input = document.querySelector('#todo-input');
+            var output = document.querySelector('#todo-output');
+            
+            function saveTodos(arr) {
+              localStorage.setItem('todos', JSON.stringify(arr));
+            }
+            
+            function getTodos() {
+              return JSON.parse(localStorage.getItem('todos')) || [];
+            }
