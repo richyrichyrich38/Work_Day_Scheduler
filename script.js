@@ -24,3 +24,15 @@
             function getTodos() {
               return JSON.parse(localStorage.getItem('todos')) || [];
             }
+
+
+
+
+            function init() {
+                input.addEventListener('keydown', addTodo);
+                output.addEventListener('click', deleteTodo);
+              
+                displayTodos();
+              }
+              
+              init();
