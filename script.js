@@ -13,3 +13,4 @@
             // increase hour by one
             // check if hour is past, current or future and apply corresponding css class to time-block
             
+
