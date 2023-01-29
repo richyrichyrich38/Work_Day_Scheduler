@@ -34,6 +34,7 @@ function setColor(element, color) {
 
 var store = [];
 
+// save to local storage btn
 var saveBtn9 = $("#save-9");
 
 saveBtn9.on("click", function (event) {
@@ -48,6 +49,13 @@ function getNineAm() {
   var nineAmTextarea = $("#9")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
+// delete from local storage btn
+function deleteString() {
+  localStorage.removeItem("9am", inputText);
+}
+
+
 
 window.onload = getNineAm();
 
