@@ -51,8 +51,13 @@ function getNineAm() {
 }
 
 // delete from local storage btn
+var deleteBtn9 = $('#delete-9');
+
+deleteBtn9.on('click', deleteString)
+
 function deleteString() {
-  localStorage.removeItem("9am", inputText);
+  localStorage.removeItem("9am");
+  delete('nineAmValue')
 }
 
 
