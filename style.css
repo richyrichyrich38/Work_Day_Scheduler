@@ -25,9 +25,42 @@ h6 {
 
 button {
   border: none;
-  background: orangered;
+  background: black;
   color: white;
 }
+
+.saveBtn {
+  border-left: 1px solid black;
+  /* border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px; */
+  background-color: greenyellow;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.deleteBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.saveBtn i:hover {
+  color: black;
+}
+
+
+.saveBtn i:hover {
+  color: black;
+}
+
+
+
+
 
 button:focus {
   outline: none;
@@ -85,16 +118,3 @@ button:focus {
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: orangered;
-  color: white;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.saveBtn i:hover {
-  color: black;
-}
