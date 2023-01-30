@@ -44,9 +44,11 @@ saveBtn9.on("click", function (event) {
   unhide();
 });
 
+var nineAmTextarea = $("#9")[0];
+
 function getNineAm() {
   var nineAmValue = localStorage.getItem("9am");
-  var nineAmTextarea = $("#9")[0];
+  
   nineAmTextarea.innerText = nineAmValue;
 }
 
@@ -57,7 +59,7 @@ deleteBtn9.on('click', deleteString)
 
 function deleteString() {
   localStorage.removeItem("9am");
-  delete('nineAmValue')
+  // nineAmTextarea.innerText = '';
 }
 
 
