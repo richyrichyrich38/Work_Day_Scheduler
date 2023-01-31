@@ -59,7 +59,8 @@ deleteBtn9.on('click', deleteString)
 
 function deleteString() {
   localStorage.removeItem("9am");
-  // nineAmTextarea.innerText = '';
+  inputText.innerText = '';
+
 }
 
 
@@ -81,6 +82,16 @@ function getTenAm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 
+// delete from local storage btn
+var deleteBtn10 = $('#delete-10');
+
+deleteBtn10.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("10am");
+  inputText.innerText = '';
+}
+
 window.onload = getTenAm();
 
 var saveBtn11 = $("#save-11");
@@ -96,6 +107,16 @@ function getElevenAm() {
   var nineAmValue = localStorage.getItem("11am");
   var nineAmTextarea = $("#11")[0];
   nineAmTextarea.innerText = nineAmValue;
+}
+
+// delete from local storage btn
+var deleteBtn11 = $('#delete-11');
+
+deleteBtn11.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("11am");
+  inputText.innerText = '';
 }
 
 window.onload = getElevenAm();
@@ -114,6 +135,15 @@ function getTwelvePm() {
   var nineAmTextarea = $("#12")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+// delete from local storage btn
+var deleteBtn12 = $('#delete-12');
+
+deleteBtn12.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("12pm");
+  inputText.innerText = '';
+}
 
 window.onload = getTwelvePm();
 
@@ -130,6 +160,15 @@ function getOnePm() {
   var nineAmValue = localStorage.getItem("1pm");
   var nineAmTextarea = $("#13")[0];
   nineAmTextarea.innerText = nineAmValue;
+}
+// delete from local storage btn
+var deleteBtn13 = $('#delete-13');
+
+deleteBtn13.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("1pm");
+  inputText.innerText = '';
 }
 
 window.onload = getOnePm();
@@ -148,6 +187,15 @@ function getTwoPm() {
   var nineAmTextarea = $("#14")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+// delete from local storage btn
+var deleteBtn14 = $('#delete-14');
+
+deleteBtn14.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("2pm");
+  inputText.innerText = '';
+}
 
 window.onload = getTwoPm();
 
@@ -164,6 +212,15 @@ function getThreePm() {
   var nineAmValue = localStorage.getItem("3pm");
   var nineAmTextarea = $("#15")[0];
   nineAmTextarea.innerText = nineAmValue;
+}
+// delete from local storage btn
+var deleteBtn15 = $('#delete-15');
+
+deleteBtn15.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("3pm");
+  inputText.innerText = '';
 }
 
 window.onload = getThreePm();
@@ -182,6 +239,15 @@ function getFourPm() {
   var nineAmTextarea = $("#16")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+// delete from local storage btn
+var deleteBtn16 = $('#delete-16');
+
+deleteBtn16.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("4pm");
+  inputText.innerText = '';
+}
 
 window.onload = getFourPm();
 
@@ -198,6 +264,15 @@ function getFivePm() {
   var nineAmValue = localStorage.getItem("5pm");
   var nineAmTextarea = $("#17")[0];
   nineAmTextarea.innerText = nineAmValue;
+}
+// delete from local storage btn
+var deleteBtn17 = $('#delete-17');
+
+deleteBtn17.on('click', deleteString)
+
+function deleteString() {
+  localStorage.removeItem("5pm");
+  inputText.innerText = '';
 }
 
 window.onload = getFivePm();
