@@ -83,14 +83,14 @@ function getTenAm() {
 }
 
 // delete from local storage btn
-var deleteBtn10 = $('#delete-10');
+// var deleteBtn10 = $('#delete-10');
 
-deleteBtn10.on('click', deleteString)
+// deleteBtn10.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("10am");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("10am");
+//   inputText.innerText = '';
+// }
 
 window.onload = getTenAm();
 
@@ -110,14 +110,14 @@ function getElevenAm() {
 }
 
 // delete from local storage btn
-var deleteBtn11 = $('#delete-11');
+// var deleteBtn11 = $('#delete-11');
 
-deleteBtn11.on('click', deleteString)
+// deleteBtn11.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("11am");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("11am");
+//   inputText.innerText = '';
+// }
 
 window.onload = getElevenAm();
 
@@ -136,14 +136,14 @@ function getTwelvePm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 // delete from local storage btn
-var deleteBtn12 = $('#delete-12');
+// var deleteBtn12 = $('#delete-12');
 
-deleteBtn12.on('click', deleteString)
+// deleteBtn12.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("12pm");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("12pm");
+//   inputText.innerText = '';
+// }
 
 window.onload = getTwelvePm();
 
@@ -162,14 +162,14 @@ function getOnePm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 // delete from local storage btn
-var deleteBtn13 = $('#delete-13');
+// var deleteBtn13 = $('#delete-13');
 
-deleteBtn13.on('click', deleteString)
+// deleteBtn13.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("1pm");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("1pm");
+//   inputText.innerText = '';
+// }
 
 window.onload = getOnePm();
 
@@ -188,14 +188,14 @@ function getTwoPm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 // delete from local storage btn
-var deleteBtn14 = $('#delete-14');
+// var deleteBtn14 = $('#delete-14');
 
-deleteBtn14.on('click', deleteString)
+// deleteBtn14.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("2pm");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("2pm");
+//   inputText.innerText = '';
+// }
 
 window.onload = getTwoPm();
 
@@ -214,14 +214,14 @@ function getThreePm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 // delete from local storage btn
-var deleteBtn15 = $('#delete-15');
+// var deleteBtn15 = $('#delete-15');
 
-deleteBtn15.on('click', deleteString)
+// deleteBtn15.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("3pm");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("3pm");
+//   inputText.innerText = '';
+// }
 
 window.onload = getThreePm();
 
@@ -240,14 +240,14 @@ function getFourPm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 // delete from local storage btn
-var deleteBtn16 = $('#delete-16');
+// var deleteBtn16 = $('#delete-16');
 
-deleteBtn16.on('click', deleteString)
+// deleteBtn16.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("4pm");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("4pm");
+//   inputText.innerText = '';
+// }
 
 window.onload = getFourPm();
 
@@ -266,14 +266,14 @@ function getFivePm() {
   nineAmTextarea.innerText = nineAmValue;
 }
 // delete from local storage btn
-var deleteBtn17 = $('#delete-17');
+// var deleteBtn17 = $('#delete-17');
 
-deleteBtn17.on('click', deleteString)
+// deleteBtn17.on('click', deleteString)
 
-function deleteString() {
-  localStorage.removeItem("5pm");
-  inputText.innerText = '';
-}
+// function deleteString() {
+//   localStorage.removeItem("5pm");
+//   inputText.innerText = '';
+// }
 
 window.onload = getFivePm();
 
