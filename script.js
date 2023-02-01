@@ -54,13 +54,13 @@ function getNineAm() {
 
 // delete from local storage btn
 var deleteBtn9 = $('#delete-9');
-
+// when clicked, runs the delete string function
 deleteBtn9.on('click', deleteString)
-
+// removes data from local storage
 function deleteString() {
   localStorage.removeItem("9am");
-  inputText.innerText = '';
-
+// clears the text area
+  $("#9").val('');
 }
 
 
@@ -83,14 +83,16 @@ function getTenAm() {
 }
 
 // delete from local storage btn
-// var deleteBtn10 = $('#delete-10');
+var deleteBtn10 = $('#delete-10');
+// when clicked, runs the delete string function
+deleteBtn10.on('click', deleteString10)
+// removes data from local storage
+function deleteString10() {
+  localStorage.removeItem("10am");
+// clears the text area
+  $("#10").val('');
+}
 
-// deleteBtn10.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("10am");
-//   inputText.innerText = '';
-// }
 
 window.onload = getTenAm();
 
@@ -110,14 +112,16 @@ function getElevenAm() {
 }
 
 // delete from local storage btn
-// var deleteBtn11 = $('#delete-11');
+var deleteBtn11 = $('#delete-11');
+// when clicked, runs the delete string function
+deleteBtn11.on('click', deleteString11)
+// removes data from local storage
+function deleteString11() {
+  localStorage.removeItem("11am");
+// clears the text area
+  $("#11").val('');
+}
 
-// deleteBtn11.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("11am");
-//   inputText.innerText = '';
-// }
 
 window.onload = getElevenAm();
 
@@ -135,15 +139,18 @@ function getTwelvePm() {
   var nineAmTextarea = $("#12")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
 // delete from local storage btn
-// var deleteBtn12 = $('#delete-12');
+var deleteBtn12 = $('#delete-12');
+// when clicked, runs the delete string function
+deleteBtn12.on('click', deleteString12)
+// removes data from local storage
+function deleteString12() {
+  localStorage.removeItem("12pm");
+// clears the text area
+  $("#12").val('');
+}
 
-// deleteBtn12.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("12pm");
-//   inputText.innerText = '';
-// }
 
 window.onload = getTwelvePm();
 
@@ -161,15 +168,18 @@ function getOnePm() {
   var nineAmTextarea = $("#13")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
 // delete from local storage btn
-// var deleteBtn13 = $('#delete-13');
+var deleteBtn13 = $('#delete-13');
+// when clicked, runs the delete string function
+deleteBtn13.on('click', deleteString13)
+// removes data from local storage
+function deleteString13() {
+  localStorage.removeItem("1pm");
+// clears the text area
+  $("#13").val('');
+}
 
-// deleteBtn13.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("1pm");
-//   inputText.innerText = '';
-// }
 
 window.onload = getOnePm();
 
@@ -187,15 +197,18 @@ function getTwoPm() {
   var nineAmTextarea = $("#14")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
 // delete from local storage btn
-// var deleteBtn14 = $('#delete-14');
+var deleteBtn14 = $('#delete-14');
+// when clicked, runs the delete string function
+deleteBtn14.on('click', deleteString14)
+// removes data from local storage
+function deleteString14() {
+  localStorage.removeItem("2pm");
+// clears the text area
+  $("#14").val('');
+}
 
-// deleteBtn14.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("2pm");
-//   inputText.innerText = '';
-// }
 
 window.onload = getTwoPm();
 
@@ -213,15 +226,18 @@ function getThreePm() {
   var nineAmTextarea = $("#15")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
 // delete from local storage btn
-// var deleteBtn15 = $('#delete-15');
+var deleteBtn14 = $('#delete-14');
+// when clicked, runs the delete string function
+deleteBtn14.on('click', deleteString14)
+// removes data from local storage
+function deleteString14() {
+  localStorage.removeItem("2pm");
+// clears the text area
+  $("#14").val('');
+}
 
-// deleteBtn15.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("3pm");
-//   inputText.innerText = '';
-// }
 
 window.onload = getThreePm();
 
