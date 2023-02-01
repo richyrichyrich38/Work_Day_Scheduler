@@ -228,14 +228,14 @@ function getThreePm() {
 }
 
 // delete from local storage btn
-var deleteBtn14 = $('#delete-14');
+var deleteBtn15 = $('#delete-15');
 // when clicked, runs the delete string function
-deleteBtn14.on('click', deleteString14)
+deleteBtn15.on('click', deleteString15)
 // removes data from local storage
-function deleteString14() {
-  localStorage.removeItem("2pm");
+function deleteString15() {
+  localStorage.removeItem("3pm");
 // clears the text area
-  $("#14").val('');
+  $("#15").val('');
 }
 
 
@@ -255,15 +255,18 @@ function getFourPm() {
   var nineAmTextarea = $("#16")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
 // delete from local storage btn
-// var deleteBtn16 = $('#delete-16');
+var deleteBtn16 = $('#delete-16');
+// when clicked, runs the delete string function
+deleteBtn16.on('click', deleteString16)
+// removes data from local storage
+function deleteString16() {
+  localStorage.removeItem("4pm");
+// clears the text area
+  $("#16").val('');
+}
 
-// deleteBtn16.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("4pm");
-//   inputText.innerText = '';
-// }
 
 window.onload = getFourPm();
 
@@ -281,22 +284,28 @@ function getFivePm() {
   var nineAmTextarea = $("#17")[0];
   nineAmTextarea.innerText = nineAmValue;
 }
+
 // delete from local storage btn
-// var deleteBtn17 = $('#delete-17');
+var deleteBtn17 = $('#delete-17');
+// when clicked, runs the delete string function
+deleteBtn17.on('click', deleteString17)
+// removes data from local storage
+function deleteString17() {
+  localStorage.removeItem("5pm");
+// clears the text area
+  $("#17").val('');
+}
 
-// deleteBtn17.on('click', deleteString)
-
-// function deleteString() {
-//   localStorage.removeItem("5pm");
-//   inputText.innerText = '';
-// }
 
 window.onload = getFivePm();
 
-// unhide save message for 1.2 seoonds
+// unhide save message for 1.2 seconds
 function unhide() {
   $(".hidden").show();
   setTimeout(function () {
-    $("h6").hide();
+    $(".hidden").hide();
   }, 1200);
 }
+
+// unhide delete message for 1.2 seconds
+
