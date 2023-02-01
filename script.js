@@ -61,6 +61,7 @@ function deleteString() {
   localStorage.removeItem("9am");
 // clears the text area
   $("#9").val('');
+  unhideDelete();
 }
 
 
@@ -91,6 +92,7 @@ function deleteString10() {
   localStorage.removeItem("10am");
 // clears the text area
   $("#10").val('');
+  unhideDelete();
 }
 
 
@@ -120,6 +122,7 @@ function deleteString11() {
   localStorage.removeItem("11am");
 // clears the text area
   $("#11").val('');
+  unhideDelete();
 }
 
 
@@ -149,6 +152,7 @@ function deleteString12() {
   localStorage.removeItem("12pm");
 // clears the text area
   $("#12").val('');
+  unhideDelete();
 }
 
 
@@ -178,6 +182,7 @@ function deleteString13() {
   localStorage.removeItem("1pm");
 // clears the text area
   $("#13").val('');
+  unhideDelete();
 }
 
 
@@ -207,6 +212,7 @@ function deleteString14() {
   localStorage.removeItem("2pm");
 // clears the text area
   $("#14").val('');
+  unhideDelete();
 }
 
 
@@ -236,6 +242,7 @@ function deleteString15() {
   localStorage.removeItem("3pm");
 // clears the text area
   $("#15").val('');
+  unhideDelete();
 }
 
 
@@ -265,6 +272,7 @@ function deleteString16() {
   localStorage.removeItem("4pm");
 // clears the text area
   $("#16").val('');
+  unhideDelete();
 }
 
 
@@ -294,6 +302,7 @@ function deleteString17() {
   localStorage.removeItem("5pm");
 // clears the text area
   $("#17").val('');
+  unhideDelete();
 }
 
 

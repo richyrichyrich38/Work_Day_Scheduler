@@ -70,6 +70,10 @@ button:focus {
   display: none;
 }
 
+.hiddenDelete {
+  display: none;
+}
+
 .red {
   color: red;
 }
