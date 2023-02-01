@@ -308,4 +308,9 @@ function unhide() {
 }
 
 // unhide delete message for 1.2 seconds
-
+function unhideDelete() {
+  $(".hiddenDelete").show();
+  setTimeout(function () {
+    $(".hiddenDelete").hide();
+  }, 1200);
+}
