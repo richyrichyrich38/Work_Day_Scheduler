@@ -41,6 +41,7 @@ saveBtn9.on("click", function (event) {
   var inputText = $("#9").val();
   store.push(inputText);
   localStorage.setItem("9am", inputText);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -61,6 +62,7 @@ function deleteString() {
   localStorage.removeItem("9am");
 // clears the text area
   $("#9").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -74,6 +76,7 @@ saveBtn10.on("click", function (event) {
   var inputText10 = $("#10").val();
   store.push(inputText10);
   localStorage.setItem("10am", inputText10);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -92,6 +95,7 @@ function deleteString10() {
   localStorage.removeItem("10am");
 // clears the text area
   $("#10").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -104,6 +108,7 @@ saveBtn11.on("click", function (event) {
   var inputText11 = $("#11").val();
   store.push(inputText11);
   localStorage.setItem("11am", inputText11);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -122,6 +127,7 @@ function deleteString11() {
   localStorage.removeItem("11am");
 // clears the text area
   $("#11").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -134,6 +140,7 @@ saveBtn12.on("click", function (event) {
   var inputText12 = $("#12").val();
   store.push(inputText12);
   localStorage.setItem("12pm", inputText12);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -152,6 +159,7 @@ function deleteString12() {
   localStorage.removeItem("12pm");
 // clears the text area
   $("#12").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -164,6 +172,7 @@ saveBtn13.on("click", function (event) {
   var inputText13 = $("#13").val();
   store.push(inputText13);
   localStorage.setItem("1pm", inputText13);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -182,6 +191,7 @@ function deleteString13() {
   localStorage.removeItem("1pm");
 // clears the text area
   $("#13").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -194,6 +204,7 @@ saveBtn14.on("click", function (event) {
   var inputText14 = $("#14").val();
   store.push(inputText14);
   localStorage.setItem("2pm", inputText14);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -212,6 +223,7 @@ function deleteString14() {
   localStorage.removeItem("2pm");
 // clears the text area
   $("#14").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -224,6 +236,7 @@ saveBtn15.on("click", function (event) {
   var inputText15 = $("#15").val();
   store.push(inputText15);
   localStorage.setItem("3pm", inputText15);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -242,6 +255,7 @@ function deleteString15() {
   localStorage.removeItem("3pm");
 // clears the text area
   $("#15").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -254,6 +268,7 @@ saveBtn16.on("click", function (event) {
   var inputText16 = $("#16").val();
   store.push(inputText16);
   localStorage.setItem("4pm", inputText16);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -272,6 +287,7 @@ function deleteString16() {
   localStorage.removeItem("4pm");
 // clears the text area
   $("#16").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
@@ -284,6 +300,7 @@ saveBtn17.on("click", function (event) {
   var inputText17 = $("#17").val();
   store.push(inputText17);
   localStorage.setItem("5pm", inputText17);
+// notifies user app has been added to local storage
   unhide();
 });
 
@@ -302,6 +319,7 @@ function deleteString17() {
   localStorage.removeItem("5pm");
 // clears the text area
   $("#17").val('');
+// notifies user app has been removed from local storage
   unhideDelete();
 }
 
